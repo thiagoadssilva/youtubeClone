@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 25px;
     height: 56px;
     background-color: #FFFFFF;
 `;
@@ -45,6 +45,10 @@ export const IconeSearch = styled.div`
     background-color: #EAEAEA;
     color: #000000;
     cursor: pointer;
+
+    &:hover{
+        background-color: #CCC;
+    }
 `;
 
 export const DivCamera = styled.div`

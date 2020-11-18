@@ -20,8 +20,6 @@ import {
     DivApp,
     DivNotification,
     DivAccount
-
-
 } from './styled';
 
 // Importação dos icones da biclioteca
