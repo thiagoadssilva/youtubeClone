@@ -6,7 +6,10 @@ import {
     DivTitle,
     DivDescription,
     DivViews,
-    DivTime
+    DivTime,
+    DivImagePerfil,
+    ImagePerfil,
+    ContainerPerfil
 } from './styled';
 
 export default ({data}) => {
@@ -16,18 +19,24 @@ export default ({data}) => {
             <DivImage>
                 <Imagee src={data.image} />
             </DivImage>
-            <DivTitle>
-                {data.titulo}
-            </DivTitle>
-            <DivDescription>
-                {data.descricao}
-            </DivDescription>
-            <DivViews>
-                {data.visualizacaoes}
-            </DivViews>
-            <DivTime>
-                {data.tempo}
-            </DivTime>
+            <DivImagePerfil>
+                <ImagePerfil src={data.image}/>
+                <ContainerPerfil>
+                    <DivTitle>
+                        {data.titulo}
+                    </DivTitle>
+                    <DivDescription>
+                        {data.descricao}
+                    </DivDescription>
+                    <DivViews>
+                        {data.visualizacaoes}
+                    </DivViews>
+                    <DivTime>
+                        {data.tempo}
+                    </DivTime>
+                </ContainerPerfil>
+            </DivImagePerfil>
+            
         </Container>
     );
 }
