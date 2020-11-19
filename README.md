@@ -22,3 +22,8 @@ Obs - Treinamento na tecnologia.
 
 ![Tela Principal](images/inicioCentro.png)
 <hr>
+
+## Definido o layout do centro <b>centro</b> 
+
+![Tela Principal](images/grid.png)
+<hr>
