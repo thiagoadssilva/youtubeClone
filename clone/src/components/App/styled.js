@@ -2,6 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
-    height: 100vh;
-    background-color: #FF0;  
+    
+`;
+
+export const ContainerRight = styled.div`
+    
+`;
+
+export const ContainerC = styled.div`
+    display: flex;
+    
 `;

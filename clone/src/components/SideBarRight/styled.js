@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    max-width: 100%;
-    width: 100%;
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 25% 25% 25% 25%;
     background-color: #FAFAFA;
+    grid-row-gap: 2%;
 `;

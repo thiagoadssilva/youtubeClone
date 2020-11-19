@@ -5,14 +5,15 @@ export const Container = styled.div`
     margin-top: 24px;
     display:flex;
     flex-direction: column;
+    cursor: pointer;
 `;
 
 export const DivImage = styled.div`
     
 `;
 export const Imagee = styled.img`
-    width: 200px;
-    height: 142px;
+    width: 260px;
+    height: 163px;
 `;
 export const DivTitle = styled.div`
 
@@ -26,3 +27,4 @@ export const DivViews = styled.div`
 export const DivTime = styled.div`
 
 `;
+
