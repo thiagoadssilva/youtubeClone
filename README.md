@@ -4,7 +4,7 @@
 - Dentro do <b>README</b> da pasta do projeto está tudo que foi ou está sendo usando.
 https://github.com/thiagoadssilva/youtubeClone/blob/main/clone/README.md
 
-Obs - Treinamento na tecnologia.
+-  Para visualizar o projeto http://youtube.tfcoder.com/
 
 <hr/>
 
@@ -33,4 +33,3 @@ Obs - Treinamento na tecnologia.
 ![Tela Principal](images/final.png)
 <hr>
 
-Obs - Para mas detalhes acesse: http://youtube.tfcoder.com/
